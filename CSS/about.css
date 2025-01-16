@@ -1,0 +1,47 @@
+.about{
+    margin-left: 15%;
+    min-height: 100vh;
+}
+.about .heading {
+    padding: 15px;
+    font-size: 35px;
+    color: rgb(0, 157, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+} 
+
+.about .text{
+    padding: 15px;
+    font-family: myFont;
+}
+
+.about .box{
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.about .personalInfo{
+    padding: 15px;
+    width: 500px;
+    font-family: myFont;
+    font-size: 30px;
+    color: rgb(0, 157, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    /* background-color: brown; */
+}
+
+
+.about .photo{
+    margin-right: 5%;
+}
+
+.about .photo img{
+    box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.2);
+    height: 450px;
+    border-radius: 35px;
+}
+
+.about td{
+    width: 15%;
+}

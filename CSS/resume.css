@@ -1,0 +1,71 @@
+.resume{
+    display: flow-root;
+    margin-top: 10%;
+    padding: 25px;
+    margin-left: 15%;
+    min-height: 100vh;
+}
+
+.resume .header{
+    padding: 15px;
+    font-size: 35px;
+    color: rgb(0, 157, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+
+.resume .tr{
+    display: flex;
+}
+
+.resume .resumeHeadline{
+    height: 15%;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+
+.resume .subhead{
+    background-color: rgba(162, 162, 162, 0.195);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+.resume .card-body {
+    box-shadow: 12px 12px 15px rgba(0, 0, 0, 0.2); /* Adds a soft shadow effect */
+    border-left: 3px solid rgba(0, 85, 255, 0.581); /* Border on the left */
+    border-radius: 30px; /* Rounds the corners */
+}
+
+
+.resume .card{
+    border: none;
+}
+
+
+.resume .resume-heading{
+
+    font-size: 20px;
+    color: rgb(0, 157, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+
+}
+
+.resume_info ul li{
+padding: 10px;
+}
+.resume .resume_college{
+    font-style: italic ;
+    padding: 5px 10px;
+}
+
+.resume .resume_info{
+    padding : 5px 10px;
+}
+
+.resume .col-6 .p_module ul li{
+    margin-bottom: none;
+}

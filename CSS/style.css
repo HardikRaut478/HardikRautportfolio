@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(255, 255, 255);
+   font-family: myFont;
+   padding-right: 5%;
+   color: rgb(90, 90, 90);
+   
+}
+
+
+
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+.AllComponent{
+    animation: appear 0.5s linear;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blue{
+    color: rgb(0, 157, 255);
+    font-weight: 500;
+}
+
+.underline{
+
+
+}
+
+
+.left{
+    position: fixed;
+    left: 0;
+    width: 100px;
+    padding: 10px;
+    
+}
+.left .icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 25px;
+ 
+    margin-left: 25px;
+}
+.container{
+    
+    margin-left: 10%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  
+}
+.container .box .name{
+    font-size: 50px;
+    display: flex;
+}
+
+.container .box .deveploer{
+    font-family: monospace;
+    font-size: 24px;
+    border-right: 2px solid black; /* Blinking cursor */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 25ch; /* Adjust width based on the longest text */
+    animation: typing 2s steps(20, end), blink 0.5s step-end infinite;
+}
+
+@keyframes blink{
+    50% {border-color: transparent;}
+}
+
+@keyframes typing{
+from {
+        width: 0;
+      }
+    to {
+        width: 24ch;
+    }
+}
+
+
+
+@font-face {
+    font-family: myFont;
+    src: url(..//fonts/Raleway-VariableFont_wght.ttf);
+}
+
+.box .name p{
+    font-family: myFont;
+    font-size: 80px;
+    color: rgb(86, 86, 86);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+}
+
+.box .test{
+    display: flex;
+    margin-bottom: 0;
+}
+
+@media( max-width: 1400px){
+
+
+
+}
+
+.logo{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    width: 40px;
+    
+}
+.logo:hover{
+    transform: scale(1.3);
+}
+
+.btn:hover::before {
+    opacity: 1;
+  }
+
+  .box .icon a img{
+    gap: 35px;
+  }
+  

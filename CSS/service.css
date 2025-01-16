@@ -1,0 +1,71 @@
+.service{
+    margin-left: 15%;
+    height: 99%;
+}
+
+
+.service .header{
+    padding: 15px;
+    margin-top: 10vh;
+    font-size: 35px;
+    top: 50%;
+    color: rgb(0, 157, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600; 
+}
+
+.service .cardContainer{
+  
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    border-radius: 10px;
+
+}
+
+.service .cardContainer .card{
+    width: 8rem;
+    margin: 10px auto;
+    margin-top: 10vh;
+    height: 350px;
+    font-size: 12px;
+    box-shadow: 12px  12px 15px rgba(0, 0, 0, 0.2);
+    border-left: 3px solid rgba(0, 85, 255, 0.671);
+    cursor: pointer;
+    border-radius: 25px;
+   
+}
+.service .cardContainer .card img{
+    margin: 5px;
+    align-self: center;
+    width: 50px;
+}
+
+.service .card-title{
+    margin-bottom: 40px;
+}
+
+.service .progress{
+    border-radius: 15px;
+    margin-top: 4px;
+}
+
+.service .java{
+    
+    display: flex;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+
+.card:hover{
+    transition: transform 0.8s ease, box-shadow 0.3s ease;
+    transform: translateY(-10px);
+}
+
+
+.service .sub_heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
